@@ -1,0 +1,36 @@
+{
+    "name": "dracula-elixir",
+    "displayName": "Dracula (Elixir)",
+    "description": "Elixir customized syntax based on a default Dracula Official and Dark+ Elixir",
+    "version": "1.0.0",
+	"publisher": "joaopsramos",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"keywords": [
+		"theme",
+		"dracula",
+		"visual studio",
+		"elixir"
+	],
+	"bugs": {
+		"url": "https://github.com/joaopsramos/dracula-elixir/issues"
+	},
+	"homepage": "https://github.com/joaopsramos/dracula-elixir",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joaopsramos/dracula-elixir"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula (Elixir)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dracula(elixir)-color-theme.json"
+            }
+        ]
+    }
+}
